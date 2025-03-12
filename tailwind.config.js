@@ -3,6 +3,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        primary: "#14213d",
+        secondary: "#fca311",
+      },
       fontFamily: {
         sans: ["Bai Jamjuree", "sans-serif"],
       },
