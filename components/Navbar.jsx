@@ -73,7 +73,7 @@ const Navbar = () => {
                 <Link
                   href="/"
                   className={`${
-                    pathname === "/" ? "bg-black" : null
+                    pathname === "/" ? "bg-[#fca311]" : null
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                 >
                   Home
@@ -81,7 +81,7 @@ const Navbar = () => {
                 <Link
                   href="/properties"
                   className={`${
-                    pathname === "/properties" ? "bg-black" : null
+                    pathname === "/properties" ? "bg-[#fca311]" : null
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                 >
                   Properties
@@ -90,7 +90,7 @@ const Navbar = () => {
                   <Link
                     href="/properties/add"
                     className={`${
-                      pathname === "/properties/add" ? "bg-black" : null
+                      pathname === "/properties/add" ? "bg-[#fca311]" : null
                     } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
                   >
                     Add Property
@@ -188,6 +188,7 @@ const Navbar = () => {
                       role="menuitem"
                       tabIndex="-1"
                       id="user-menu-item-0"
+                      onClick={() => setIsProfileMenuOpen(false)}
                     >
                       Your Profile
                     </Link>
@@ -197,6 +198,7 @@ const Navbar = () => {
                       role="menuitem"
                       tabIndex="-1"
                       id="user-menu-item-2"
+                      onClick={() => setIsProfileMenuOpen(false)}
                     >
                       Saved Properties
                     </Link>

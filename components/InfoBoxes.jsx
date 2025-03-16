@@ -19,19 +19,6 @@ const InfoBoxes = () => {
             List your properties and reach potential tenants. Rent as an airbnb
             or long term.
           </InfoBox>
-          <InfoBox
-            heading={"For Property Owners"}
-            bgColor={"bg-red-100"}
-            textColor="text-black"
-            buttonInfo={{
-              text: "Add Property",
-              link: "/properties/add",
-              bgColor: "bg-blue-500",
-            }}
-          >
-            List your properties and reach potential tenants. Rent as an airbnb
-            or long term.
-          </InfoBox>
         </div>
       </div>
     </section>
