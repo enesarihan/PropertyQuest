@@ -75,7 +75,7 @@ const Navbar = () => {
                   href="/"
                   className={`${
                     pathname === "/" ? "bg-[#fca311]" : null
-                  } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                  } text-white hover:bg-[#fca21173] hover:text-white rounded-md px-3 py-2`}
                 >
                   Home
                 </Link>
@@ -83,7 +83,7 @@ const Navbar = () => {
                   href="/properties"
                   className={`${
                     pathname === "/properties" ? "bg-[#fca311]" : null
-                  } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                  } text-white hover:bg-[#fca21173] hover:text-white rounded-md px-3 py-2`}
                 >
                   Properties
                 </Link>
@@ -92,7 +92,7 @@ const Navbar = () => {
                     href="/properties/add"
                     className={`${
                       pathname === "/properties/add" ? "bg-[#fca311]" : null
-                    } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                    } text-white hover:bg-[#fca21173] hover:text-white rounded-md px-3 py-2`}
                   >
                     Add Property
                   </Link>
